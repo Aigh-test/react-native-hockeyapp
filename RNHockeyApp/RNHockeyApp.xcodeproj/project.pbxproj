@@ -239,6 +239,7 @@
 		73DDCB941EF02ADD008888CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../ios/Pods/HockeySDK/**";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
