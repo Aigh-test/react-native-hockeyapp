@@ -240,6 +240,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUGGING_SYMBOLS = NO;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../ios/Pods/HockeySDK/**";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
